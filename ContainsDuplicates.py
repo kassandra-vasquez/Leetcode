@@ -8,7 +8,7 @@ def hasDuplicates(self, nums: List[int]) -> bool:
     return False
 
 # OPTIMIZED SOLUTION
-# TC: T: O(n) - constant/best S: O(n) - constant/best
+# TC: T&S: O(n) - constant/best
 def hasDuplicate(self, nums: List[int]) -> bool:
     hashset = set()
 
