@@ -5,10 +5,12 @@ def isAnagram(self, s: str, t: str) -> bool:
     perms = [''.join(p) for p in permutations(s)]
     return t in perms
 
+
 # OPTIMIZED OK
 # TC: T: O(n log n) - loglinear/bad S: O(n) - linear/fair
 def isAnagram(self, s: str, t: str) -> bool:
     return sorted(s) == sorted(t)
+
 
 # OPTIMIZED BETTER
 # TC: T&S: O(n) - linear/fair

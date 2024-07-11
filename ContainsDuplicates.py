@@ -7,6 +7,7 @@ def hasDuplicates(self, nums: List[int]) -> bool:
                 return True
     return False
 
+
 # OPTIMIZED SOLUTION
 # TC: T&S: O(n) - constant/best
 def hasDuplicate(self, nums: List[int]) -> bool:

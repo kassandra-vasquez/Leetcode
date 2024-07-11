@@ -1,6 +1,5 @@
 # BRUTE FORCE
 # TC: T: O(n^2) - quadratic/worst S: O(1) - constant/best
-
 def maxProfit(self, prices: List[int]) -> int:
     g_max = 0
 
@@ -13,9 +12,9 @@ def maxProfit(self, prices: List[int]) -> int:
         g_max = max(g_max, l_max - prices[i])
     return g_max
 
+
 # OPTIMIZED
 # TC: T: O(n) - linear/fair S: O(1) - constant/best
-
 def maxProfit(self, prices: List[int]) -> int:
     buy, sell, max_profit = 0, 1, 0
 

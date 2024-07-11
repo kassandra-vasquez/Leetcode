@@ -18,6 +18,7 @@ def isValid(self, s: str) -> bool:
         else:
             return False
 
+
 # OPTIMIZED
 #TC T: O(n) - linear/fair  S: O(n) - linear/fair
 def isValid(self, s: str) -> bool:

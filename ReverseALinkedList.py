@@ -16,6 +16,7 @@ class Solution:
             ptr = ptr.next
         return dummy.next
 
+
 # OPTIMIZED
 # TC: T: O(n) S: O(1)
 class Solution:

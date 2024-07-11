@@ -10,6 +10,7 @@ class KthLargest:
         self.nums.sort()
         return self.nums[-self.k]
 
+
 # OPTIMIZED
 # TC: T: O(n log n) S: O(n)
 class KthLargest:

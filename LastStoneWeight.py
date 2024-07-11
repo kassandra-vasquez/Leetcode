@@ -10,6 +10,7 @@ class Solution:
                 stones.append(abs(heaviest1 - heaviest2))
         return stones[0] if stones else 0
 
+
 # OPTIMIZED
 # TC: T: O(n log n)  S: O(1)
 class Solution:
