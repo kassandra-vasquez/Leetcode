@@ -1,5 +1,5 @@
 # BRUTE FORCE
-#TC T: O(n) - linear/fair  S: O(n) - linear/fair
+#TC T: O(n) S: O(n)
 def isValid(self, s: str) -> bool:
         stack = []
         hashmap = {')':'(', ']':'[', '}':'{'}
@@ -20,7 +20,7 @@ def isValid(self, s: str) -> bool:
 
 
 # OPTIMIZED
-#TC T: O(n) - linear/fair  S: O(n) - linear/fair
+#TC T: O(n) S: O(n)
 def isValid(self, s: str) -> bool:
         stack = []
         pair = dict(('()', '[]', '{}'))

@@ -1,5 +1,5 @@
 # BRUTE FORCE
-# TC: T: O(n) - linear/fair  S: O(n) - linear/fair
+# TC: T: O(n) S: O(n)
 def isPalindrome(self, s: str) -> bool:
     result = ""
 
@@ -11,7 +11,7 @@ def isPalindrome(self, s: str) -> bool:
 
 
 # OPTIMIZED
-# TC: T:O(n) - linear/fair S:(1) - constant/best
+# TC: T:O(n) S:(1) 
 def isPalindrome(self, s: str) -> bool:
     s = s.lower()
     l, r = 0, len(s) - 1

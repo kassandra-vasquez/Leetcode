@@ -1,5 +1,5 @@
 # BRUTE FORCE
-# TC: T&S: O(n!) - factorial/worst
+# TC: T&S: O(n!)
 from itertools import permutations
 def isAnagram(self, s: str, t: str) -> bool:
     perms = [''.join(p) for p in permutations(s)]
@@ -7,13 +7,13 @@ def isAnagram(self, s: str, t: str) -> bool:
 
 
 # OPTIMIZED OK
-# TC: T: O(n log n) - loglinear/bad S: O(n) - linear/fair
+# TC: T: O(n log n) S: O(n)
 def isAnagram(self, s: str, t: str) -> bool:
     return sorted(s) == sorted(t)
 
 
 # OPTIMIZED BETTER
-# TC: T&S: O(n) - linear/fair
+# TC: T&S: O(n) 
 def isAnagram(self, s: str, t: str) -> bool:
     if len(s) != len(t):
         return False

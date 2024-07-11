@@ -12,7 +12,7 @@ class Solution:
 
 
 # OPTIMIZED
-# TC: T: O(n log n)  S: O(1)
+# TC: T: O(n log n) S: O(1)
 class Solution:
     def lastStoneWeight(self, stones: List[int]) -> int:
         stones = [-s for s in stones]

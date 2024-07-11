@@ -1,5 +1,5 @@
 # BRUTE FORCE
-# TC: T: O(n^2) - quadratic/worst S: O(1) - constant/best
+# TC: T: O(n^2) S: O(1)
 def twoSum(self, nums: List[int], target: int) -> List[int]:
     for i in range(len(nums)):
         for j in range(i + 1, len(nums)):
@@ -8,7 +8,7 @@ def twoSum(self, nums: List[int], target: int) -> List[int]:
 
 
 # OPTIMIZED
-# TC: T&S: O(n) - linear/fair
+# TC: T&S: O(n)
 def twoSum(self, nums: List[int], target: int) -> List[int]:
     hashmap = {}
 

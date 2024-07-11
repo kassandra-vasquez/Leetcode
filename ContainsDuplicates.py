@@ -1,5 +1,5 @@
 # BRUTE FORCE
-# TC: T: O(n^2) - quadratic/worst S: O(1) - constant/best
+# TC: T: O(n^2) S: O(1)
 def hasDuplicates(self, nums: List[int]) -> bool:
     for i in range(len(nums)):
         for j in range(i + 1, len(nums)):
@@ -9,7 +9,7 @@ def hasDuplicates(self, nums: List[int]) -> bool:
 
 
 # OPTIMIZED SOLUTION
-# TC: T&S: O(n) - constant/best
+# TC: T&S: O(n) 
 def hasDuplicate(self, nums: List[int]) -> bool:
     hashset = set()
 
