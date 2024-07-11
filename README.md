@@ -12,3 +12,7 @@ LANGUAGE: PYTHON
 - Valid Anagram
 - Valid Palidrome
 - Valid Parenthesis
+- Subtree of a Binary Tree
+- Reverse a Linked List
+- Last Stone Weight
+- Merge Two Sorted Lists
