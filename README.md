@@ -18,3 +18,5 @@ LANGUAGE: PYTHON
 - Merge Two Sorted Lists
 - Linked List Cycle
 - Maximum Depth of Binary Tree
+- Same Tree
+- Invert Binary Tree
