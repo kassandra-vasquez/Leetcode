@@ -1,9 +1,8 @@
 # Leetcode
-# NeetCode
 
-LANGUAGE: PYTHON
+``LANGUAGE: PYTHON``
 
-##Easy
+## Easy
 - Best time to Buy and Sell Stock
 - Binary Search
 - Contains Duplicate
