@@ -1,3 +1,5 @@
+# ARRAYS AND HASHING
+
 # BRUTE FORCE
 # TC: T: O(n^2) S: O(1)
 def twoSum(self, nums: List[int], target: int) -> List[int]:

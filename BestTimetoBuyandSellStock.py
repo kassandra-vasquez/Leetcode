@@ -1,3 +1,5 @@
+# SLIDING WINDOW
+
 # BRUTE FORCE
 # TC: T: O(n^2) S: O(1)
 def maxProfit(self, prices: List[int]) -> int:

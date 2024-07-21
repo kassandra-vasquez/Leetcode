@@ -1,3 +1,5 @@
+# TREES
+
 # BRUTE FORCE
 # TC: T: O(nm) S: O(h) - h is the height of the root tree
 class Solution:

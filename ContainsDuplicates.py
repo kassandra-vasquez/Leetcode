@@ -1,3 +1,5 @@
+# ARRAYS AND HASHING
+
 # BRUTE FORCE
 # TC: T: O(n^2) S: O(1)
 def hasDuplicates(self, nums: List[int]) -> bool:
@@ -9,7 +11,7 @@ def hasDuplicates(self, nums: List[int]) -> bool:
 
 
 # OPTIMIZED SOLUTION
-# TC: T&S: O(n) 
+# TC: T&S: O(n)
 def hasDuplicate(self, nums: List[int]) -> bool:
     hashset = set()
 

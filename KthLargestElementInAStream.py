@@ -1,3 +1,5 @@
+# HEAP / PRIORITY QUEUE
+
 # BRUTE FORCE
 # TC: T: O(n log n) S: O(n)
 class KthLargest:

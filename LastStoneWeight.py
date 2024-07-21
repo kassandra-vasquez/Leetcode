@@ -1,3 +1,5 @@
+# HEAP / PRIORITY QUEUE
+
 # BRUTE FORCE
 # TC: T: O(n^2 log n) S: O(1)
 class Solution:

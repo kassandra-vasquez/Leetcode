@@ -1,3 +1,5 @@
+# LINKED LIST
+
 # TC: T: O(n+m) S: O(1)
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:

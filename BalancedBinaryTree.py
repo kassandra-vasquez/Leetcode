@@ -1,3 +1,5 @@
+# TREES
+
 # BRUTE FORCE
 # TC: T: O(n log n) S: O(h) - height
 class Solution:

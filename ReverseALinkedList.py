@@ -1,3 +1,5 @@
+# LINKED LIST
+
 # BRUTE FORCE
 # TC: T: O(2n) S: O(n) - stack + O(n) - linked list
 class Solution:

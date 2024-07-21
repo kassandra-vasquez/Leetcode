@@ -1,3 +1,5 @@
+# TREES
+
 # TC: T: O(n) S: O(h)
 class Solution:
     def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:

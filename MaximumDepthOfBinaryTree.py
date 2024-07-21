@@ -1,3 +1,5 @@
+# TREES
+
 # RECURSIVE DFS
 # TC: T: O(n)  S: O(h) - height of binary tree
 class Solution:

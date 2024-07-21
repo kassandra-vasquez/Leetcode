@@ -1,3 +1,5 @@
+# TWO POINTERS
+
 # BRUTE FORCE
 # TC: T: O(n) S: O(n)
 def isPalindrome(self, s: str) -> bool:
@@ -11,7 +13,7 @@ def isPalindrome(self, s: str) -> bool:
 
 
 # OPTIMIZED
-# TC: T:O(n) S:(1) 
+# TC: T:O(n) S:(1)
 def isPalindrome(self, s: str) -> bool:
     s = s.lower()
     l, r = 0, len(s) - 1

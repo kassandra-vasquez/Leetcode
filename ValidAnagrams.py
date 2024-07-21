@@ -1,3 +1,5 @@
+# ARRAYS AND HASHING
+
 # BRUTE FORCE
 # TC: T&S: O(n!)
 from itertools import permutations
@@ -13,7 +15,7 @@ def isAnagram(self, s: str, t: str) -> bool:
 
 
 # OPTIMIZED BETTER
-# TC: T&S: O(n) 
+# TC: T&S: O(n)
 def isAnagram(self, s: str, t: str) -> bool:
     if len(s) != len(t):
         return False

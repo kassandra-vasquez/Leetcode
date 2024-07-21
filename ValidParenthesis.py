@@ -1,3 +1,5 @@
+# STACK
+
 # BRUTE FORCE
 #TC T: O(n) S: O(n)
 def isValid(self, s: str) -> bool:
