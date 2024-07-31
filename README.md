@@ -21,4 +21,7 @@
 - Invert Binary Tree
 - Binary Tree Diameter
 - Balanced Binary Tree
+
+## Medium
+- Group Anagrams
 - Top K Frequent Elements

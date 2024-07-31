@@ -1,3 +1,5 @@
+# ARRAYS AND HASHING
+
 # BRUTE FORCE
 # TC: T: O(n log(n)) - O(n) builds counts hash/O(n log n) sorting hash  S: O(n) - n is number of elements in num
 class Solution:

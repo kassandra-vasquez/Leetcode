@@ -1,3 +1,5 @@
+# ARRAYS AND HASHING
+
 # TC: T: O(n * k log k) - sorting each nwords of max length of k S: O(n * k)
 class Solution:
     def groupAnagrams(self, words: List[str]) -> List[List[str]]:
