@@ -25,3 +25,5 @@
 ## Medium
 - Group Anagrams
 - Top K Frequent Elements
+- Kth Largest Element in An Array
+- Product of Array Except Self
